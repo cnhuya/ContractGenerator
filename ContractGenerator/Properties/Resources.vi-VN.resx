@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tokenName" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="variableName" xml:space="preserve">
+    <value>Tên biến</value>
+  </data>
+  <data name="advancedInfo" xml:space="preserve">
+    <value>Hợp đồng thông minh nâng cao và có khả năng mở rộng, xử lý lưu trữ dữ liệu lịch sử/trước đó.
+
+Ví dụ sử dụng: Lưu trữ TẤT CẢ các đơn hàng hiện có của một thứ gì đó…</value>
+  </data>
+  <data name="tokenburnFee" xml:space="preserve">
+    <value>Phí đốt</value>
+  </data>
+  <data name="tokenPrivileges" xml:space="preserve">
+    <value>Đặc quyền chủ sở hữu</value>
+  </data>
+  <data name="tokenFee" xml:space="preserve">
+    <value>Phí</value>
+  </data>
+  <data name="tokenMintable" xml:space="preserve">
+    <value>Có thể đúc</value>
+  </data>
+  <data name="tokenfeeInfo" xml:space="preserve">
+    <value>Đặt thành 0 nếu bạn không muốn phí.</value>
+  </data>
+  <data name="tokenSymbol" xml:space="preserve">
+    <value>Ký hiệu</value>
+  </data>
+  <data name="tokentxFee" xml:space="preserve">
+    <value>Phí chuyển khoản</value>
+  </data>
+  <data name="tokenstakingInfoa" xml:space="preserve">
+    <value>Đặt thành 0 nếu bạn không muốn chức năng đặt cọc.</value>
+  </data>
+  <data name="deluxeInfo" xml:space="preserve">
+    <value>Hợp đồng thông minh có khả năng mở rộng cao, mạnh mẽ và có thể tùy chỉnh, có thể lưu trữ nhiều giá trị cho một cấu trúc dữ liệu nhất định.
+
+Ví dụ sử dụng: Lưu trữ lịch sử mua hàng cho từng người dùng.</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="stationery-stack" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="simpleInfo" xml:space="preserve">
+    <value>Hợp đồng thông minh đơn giản nhưng có thể tùy chỉnh cao, xử lý lưu trữ dữ liệu vĩnh viễn hoặc tạm thời, không lưu dữ liệu lịch sử.
+
+Ví dụ sử dụng: Hồ sơ của bạn (Lưu tên, tuổi, giới tính).</value>
+  </data>
+  <data name="tokenSupply" xml:space="preserve">
+    <value>Nguồn cung</value>
+  </data>
+  <data name="tokenBurnable" xml:space="preserve">
+    <value> Có thể đốt</value>
+  </data>
+  <data name="cryptoInfo" xml:space="preserve">
+    <value>Tạo tiền điện tử của riêng bạn. Bạn có thể đặt số lượng coin tồn tại, tên, mã ký hiệu và cũng có thể triển khai các chức năng đặc biệt như lạm phát hoặc giảm một nửa giống như Bitcoin!</value>
+  </data>
+  <data name="tokenStaking" xml:space="preserve">
+    <value>Đặt cọc</value>
+  </data>
+  <data name="dataStorageInfo" xml:space="preserve">
+    <value>Tạo hợp đồng thông minh chuyên biệt của riêng bạn, cho phép lưu trữ bất kỳ loại dữ liệu nào bạn muốn trên các blockchain tương thích với Move &amp; Solidity.</value>
+  </data>
+  <data name="variableType" xml:space="preserve">
+    <value>Loại biến</value>
+  </data>
+  <data name="tokenDecimals" xml:space="preserve">
+    <value>Số thập phân</value>
+  </data>
+  <data name="tokenGenerate" xml:space="preserve">
+    <value>Tạo ra</value>
+  </data>
+  <data name="code1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Chọn</value>
+  </data>
+  <data name="addVariable" xml:space="preserve">
+    <value>Thêm biến</value>
+  </data>
+  <data name="deleteVariable" xml:space="preserve">
+    <value>Xóa biến</value>
+  </data>
+  <data name="continue" xml:space="preserve">
+    <value>Tiếp tục</value>
+  </data>
+  <data name="feeCollector" xml:space="preserve">
+    <value>Người thu phí</value>
+  </data>
+  <data name="viewVariables" xml:space="preserve">
+    <value>Xem các biến</value>
+  </data>
+  <data name="Package" xml:space="preserve">
+    <value>Gói hàng</value>
+  </data>
+  <data name="Code_" xml:space="preserve">
+    <value>Mã</value>
+  </data>
+</root>

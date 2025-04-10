@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        BP4BP0OkHW7QWBAAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        AAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="pictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        CTY8picAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAD
+        rwAAA68BGB6xfQAAABh0RVh0U29mdHdhcmUAUGFpbnQuTkVUIDUuMS4zjLszIAAABG9JREFUeF7tnU1r
+        E1EYRv0ZLnQtuPGvKLqZGPEj0fRDU1FEdKW4FBeKO1cuVHAhLgQV1OajmCalWKymmUZb02obramholQU
+        Ki+JtL5O2jQzg7n3eQ6cRaXMzH3nJC2ZcbplCyGEEEIIIYQQQgghhBBCiE/O/FrZmlysRw6NjZ+PDheu
+        mOzB0RcXZT16jcQDGVQ0l78+8GXpx5lfKysWuVuvlSjibnl778yHmsfwbPCvAPbcu7/jQH7kMt8Zmsgg
+        +qsLXz0GZ4t/BXDs7bt++fej7pub8BHIAGJFd8RjaDbpGYAIH8Hp5Z97PQZmmy0DEKEjkF/6PAZmm+sG
+        IMJG4KQyGT0MC90wADFeKt+CiyCSHhrTg7DQtgIQ4d4JIpmhcT0EC207ABHqnYABeAsTAQNoLUQEDGB9
+        rY+AAWys1REwgPa0NgIG0L5WRsAANqd1ETCAzWtVBAygM62JgAF0rhURMAB/Gh8BA/Cv0REwgGA0NgLE
+        ABLTlV6P7/GtkZeSEQMI8zY44yJACODEwmJ07ZrlBMVLk6GtW245X7u/riaMAHoqs5+dVOapk84+CcO4
+        W57U+1zP2OvSoH5Vytfyv4acwcwjvX2/7ozsH1i7r64m6ADiE5O39bCDRrYvb+PJWn1Z77+V8v16OySE
+        APTP2zDZP5S74bF/T+Nu2Q07TCMxNQA5mbGi+9Bj/y2NTbijjEARdADNkxLqkGX7J5e+ndD7bsfjn2rf
+        jowXz0qoYR+nEQQdgChDdtLZgpPO5sMwMT0zr/fZib2zc4tOKjuqtx+Uu44mHD3vriOMAGhDma2ed9fB
+        AMKTAYDLAMBlAOAyAHAZALgMAFwGAC4DABcygMRUZe7U9+V9zc/ajVGOOaiPmP8IGYDJ192DvlUMMgB5
+        Nel9mELz3UCvp2MhA+h7P2/kw5nlmPvez1/S6/EjZABi7HXpsTxp3CTlmPU6/AobAG3IAMBlAOAyAHAZ
+        ALgMAFwGAC4DAJcBgMsAwIUNgB8FN4QMoG/u4wWDLwbJhax/1tSpkAHwcvCqkAHwhpBVIQNITFWqBt8S
+        VtXr8SNkAHRVBgAuAwCXAYDLAMBlAOAyAHAZALgMAFwGAC5sAP3VhVAfFBmCBXm4pV6HXyEDiBVLD0y9
+        HLzZZw9vJGQAcmFF78MUmheG9Ho6lgEYBgMIwPjE5B2DfwTc1evxI2QAYu/Mh1qYfzImcFOZp3LMeh1+
+        hQ2ANmQA4DIAcBkAuAwAXAYALgMAlwGAywDAZQDgMgBwGQC4DABcBgAuAwCXAYDLAMA1I4D00Jg+cBqM
+        Mls9767DSWfT+sBpMDqpzDM9764jmstf1wdOgzH6fPiannfXEfSTseiqRjwxrXE7dCmvD576M1Ys5Yy5
+        PV4OtH/+45JeBO3MvrmqzNKMk/+HuFveHsa98Wj2VGYXeiqz2/R8jUCqlV9ckrX6D70wur7JWn05mitc
+        Ne6V74UsIrlYjxx++epcdLhwhbZWZiSzsuLEE0IIIYQQQgghhBBCCCHkv/Mbqmf7Q5voh44AAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="pictureBox5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="tb_code.Text" xml:space="preserve">
+    <value>module testing::explorerv10  {
+    use std::signer;
+    use std::vector;
+    use std::account;
+    use std::debug::print;
+    use std::string::utf8;
+    use std::string;
+    use std::timestamp;
+    use std::table;
+   // use explorerv8::utilizationv1;
+
+   // struct PRECISION has copy, drop, key { decimals: u8 }
+
+    struct EXPLORER has copy, drop, key { totalTX: u256, totalVolume: u256, tvl: u256 }
+    struct UTILIZATION has copy, drop, key { fee: u16, utilization: u8 }
+    // fee = 10000 | 1%
+    // fee = 100 | 0.01%
+    // fee = 1 | 0.0001%
+
+    // base = 10
+    // multi = fee
+    // base na multi
+    // 10 na 2 = 100
+    // 10 = 0.001%
+
+    struct TRANSACTION has copy, drop, key, store { userID: u64, txID: u256, action: vector&lt;u8&gt;, type: vector&lt;u8&gt;, value: u128, fee: u16, success: bool }
+    struct TRANSACTIONS_DATABASE has key { transactions: table::Table&lt;u64, vector&lt;TRANSACTION&gt;&gt; }
+    struct USER_TX_DATABASE has key { users: table::Table&lt;u64, u256&gt; }
+    struct DATABASE has copy, key, drop { database: vector&lt;TRANSACTION&gt; }
+
+    // Errors
+    const OWNER: address = @OWNER;
+    const ERROR_NOT_OWNER: u64 = 1;
+    const ERROR_VAR_NOT_INITIALIZED: u64 = 2;
+    const ERROR_TX_DOESNT_EXISTS: u64 = 3;
+
+    // Initialize the module
+    fun init_module(address: &amp;signer) {
+        let deploy_addr = signer::address_of(address);
+
+        if (!exists&lt;EXPLORER&gt;(deploy_addr)) {
+            move_to(address, EXPLORER { totalTX: 0, totalVolume: 0, tvl: 0 });
+        };
+
+        if (!exists&lt;UTILIZATION&gt;(deploy_addr)) {
+            move_to(address, UTILIZATION { fee: 2, utilization: 0 });
+        };
+
+        if (!exists&lt;TRANSACTIONS_DATABASE&gt;(deploy_addr)) {
+            move_to(address, TRANSACTIONS_DATABASE { transactions: table::new&lt;u64, vector&lt;TRANSACTION&gt;&gt;() });
+        };
+
+        if (!exists&lt;USER_TX_DATABASE&gt;(deploy_addr)) {
+            let users_table = table::new&lt;u64, u256&gt;();
+            table::upsert(&amp;mut users_table, 0, 0u256);
+            table::upsert(&amp;mut users_table, 1, 1u256);
+            move_to(address, USER_TX_DATABASE { users: users_table });
+        };
+
+        if (!exists&lt;DATABASE&gt;(deploy_addr)) {
+            move_to(address, DATABASE { database: vector::empty() });
+        };
+    }
+
+    // Register a new transaction
+    public entry fun registerTX(address: &amp;signer,userAdd: address, _userID: u64, _action: vector&lt;u8&gt;, _type: vector&lt;u8&gt;, _value: u128, _success: bool) acquires TRANSACTIONS_DATABASE, USER_TX_DATABASE, EXPLORER, DATABASE, UTILIZATION {
+        let addr = signer::address_of(address);
+        assert!(addr == OWNER, ERROR_NOT_OWNER);
+
+        let utilization = borrow_global_mut&lt;UTILIZATION&gt;(OWNER);
+        let _fee = utilization.fee;
+
+        // Get the transactions table
+        let balance_table = borrow_global_mut&lt;TRANSACTIONS_DATABASE&gt;(OWNER);
+        let tx_count_table = borrow_global_mut&lt;USER_TX_DATABASE&gt;(OWNER);
+
+        // Update the user's transaction count
+        if (table::contains(&amp;tx_count_table.users, _userID)) {
+            let tx_count = table::borrow_mut(&amp;mut tx_count_table.users, _userID);
+            *tx_count = *tx_count + 1;
+        } else {
+            table::add(&amp;mut tx_count_table.users, _userID, 1);
+        };
+        let explorer = borrow_global_mut&lt;EXPLORER&gt;(addr);
+        let tx_count = explorer.totalTX + 1;
+        // Create a new transaction
+        let transaction = TRANSACTION {
+            userID: _userID,
+            txID: tx_count,
+            action: _action,
+            type: _type,
+            value: _value,
+            fee: _fee,
+            success: _success,
+        };
+
+        // Add the transaction to the database
+        let database = borrow_global_mut&lt;DATABASE&gt;(addr);
+        vector::push_back(&amp;mut database.database, transaction);
+
+        // Add the transaction to the user's transaction list
+        if (table::contains(&amp;balance_table.transactions, _userID)) {
+            let transactions = table::borrow_mut(&amp;mut balance_table.transactions, _userID);
+            vector::push_back(transactions, transaction);
+        } else {
+            let transactions = vector::empty&lt;TRANSACTION&gt;();
+            vector::push_back(&amp;mut transactions, transaction);
+            table::add(&amp;mut balance_table.transactions, _userID, transactions);
+        };
+
+        // Update explorer stats
+        updateExplorerStats(address, (_value as u256));
+    }
+
+    // Update explorer stats
+    public entry fun updateExplorerStats(address: &amp;signer, _volume: u256) acquires EXPLORER {
+        let addr = signer::address_of(address);
+        assert!(addr == OWNER, ERROR_NOT_OWNER);
+
+        let _explorer = borrow_global_mut&lt;EXPLORER&gt;(addr);
+        _explorer.totalTX = _explorer.totalTX + 1;
+        _explorer.totalVolume = _explorer.totalVolume + _volume;
+        print(&amp;utf8(b" test: executing updateExplorerStats... "));
+    }
+
+    public entry fun updateUtilization(address: &amp;signer, _fee: u16, _utilization: u8) acquires UTILIZATION{
+        let addr = signer::address_of(address);
+        assert!(addr == OWNER, ERROR_NOT_OWNER);
+
+        let utilization = borrow_global_mut&lt;UTILIZATION&gt;(OWNER);
+
+        utilization.fee = _fee;
+        utilization.utilization = _utilization;
+
+    }
+
+    // View explorer stats
+    #[view]
+    public fun view_EXPLORER_STATS(): EXPLORER acquires EXPLORER {
+        let _explorer = borrow_global&lt;EXPLORER&gt;(OWNER);
+        let explorer = EXPLORER {
+            totalTX: _explorer.totalTX,
+            totalVolume: _explorer.totalVolume,
+            tvl: _explorer.tvl,
+        };
+        move explorer
+    }
+
+    // View user stats
+    #[view]
+    public fun view_USER_STATS(userID: u64): u256 acquires USER_TX_DATABASE {
+        let userTable = borrow_global&lt;USER_TX_DATABASE&gt;(OWNER);
+        assert!(table::contains(&amp;userTable.users, userID), ERROR_VAR_NOT_INITIALIZED);
+        let tx_count = *table::borrow(&amp;userTable.users, userID);
+        print(&amp;tx_count);
+        move tx_count
+    }
+
+    // View specific transaction
+    #[view]
+    public fun view_SPECIFIC_TRANSACTION(txID: u64): TRANSACTION acquires DATABASE, EXPLORER {
+        let explorer = borrow_global&lt;EXPLORER&gt;(OWNER);
+        let totalTX = explorer.totalTX;
+
+        assert!(totalTX &gt;= (txID as u256), ERROR_TX_DOESNT_EXISTS);
+        assert!(exists&lt;DATABASE&gt;(OWNER), ERROR_VAR_NOT_INITIALIZED);
+
+        let database = borrow_global&lt;DATABASE&gt;(OWNER);
+        let transaction = vector::borrow(&amp;database.database, txID);
+
+        let _transaction = TRANSACTION {
+            userID: transaction.userID,
+            txID: transaction.txID,
+            action: transaction.action,
+            type: transaction.type,
+            value: transaction.value,
+            fee: transaction.fee,
+            success: transaction.success,
+        };
+
+        move _transaction
+    }
+
+    // View user transactions
+    #[view]
+    public fun view_USER_TRANSACTIONS(userID: u64): vector&lt;TRANSACTION&gt; acquires TRANSACTIONS_DATABASE {
+        let tx_database = borrow_global&lt;TRANSACTIONS_DATABASE&gt;(OWNER);
+        let transactions = *table::borrow(&amp;tx_database.transactions, userID);
+        move transactions
+    }
+
+    #[view]
+    public fun view_Utilization():UTILIZATION acquires UTILIZATION{
+
+        let utilization = borrow_global_mut&lt;UTILIZATION&gt;(OWNER);
+
+        let _utilization = UTILIZATION{
+            fee: utilization.fee,
+            utilization: utilization.utilization,
+        };
+
+        print(&amp;_utilization);
+
+        move _utilization
+    }
+
+    // Test function
+    #[test(account = @0x1, owner = @0xc698c251041b826f1d3d4ea664a70674758e78918938d1b3b237418ff17b4020)]
+    public entry fun test(account: signer, owner: signer) acquires EXPLORER, TRANSACTIONS_DATABASE, USER_TX_DATABASE, DATABASE, UTILIZATION {
+        print(&amp;utf8(b" ACCOUNT ADDRESS "));
+        print(&amp;account);
+
+        print(&amp;utf8(b" OWNER ADDRESS "));
+        print(&amp;owner);
+
+        let source_addr = signer::address_of(&amp;account);
+        init_module(&amp;owner);
+
+        account::create_account_for_test(source_addr);
+        print(&amp;utf8(b" USER STATS "));
+        view_Utilization();
+        view_USER_STATS(0);
+        print(&amp;source_addr);
+        print(&amp;utf8(b" test: executing registerTX... "));
+        registerTX(&amp;owner, OWNER, 0, b" BTC ", b" LONG X5 ", 4546, true);
+        print(&amp;utf8(b" test: executing registerTX... "));
+        registerTX(&amp;owner, OWNER, 1, b" BTC ", b" LONG X5 ", 4545446, true);
+        view_USER_STATS(0);
+        updateUtilization(&amp;owner,100,50);
+        view_Utilization();
+        print(&amp;utf8(b" test: executing registerTX... "));
+        registerTX(&amp;owner, OWNER, 0, b" ETH ", b" SHORT 2X ", 21, true);
+        view_USER_STATS(0);
+        let transaction = view_SPECIFIC_TRANSACTION(0);
+        print(&amp;transaction);
+        let user_tx = view_USER_TRANSACTIONS(0);
+        print(&amp;utf8(b" USER TXS "));
+        print(&amp;user_tx);
+        let explorer_stats = view_EXPLORER_STATS();
+        print(&amp;utf8(b" ALLTIME EXPLORER STATS "));
+        print(&amp;explorer_stats);
+    }
+}</value>
+  </data>
+  <metadata name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>
